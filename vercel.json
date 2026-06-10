@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "name": "coach-chaima",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/[^.]+",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_SUPABASE_URL": "@supabase_url",
+    "VITE_SUPABASE_ANON_KEY": "@supabase_anon_key",
+    "VITE_CHARGILY_APP_KEY": "@chargily_app_key",
+    "CHARGILY_APP_SECRET": "@chargily_app_secret"
+  }
+}

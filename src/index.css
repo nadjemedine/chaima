@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cyan: #28E8FF;
+  --color-brand-purple: #6C2991;
+}
+
+p {
+  color: #000000 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000 !important;
+}
+
